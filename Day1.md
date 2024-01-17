@@ -26,13 +26,42 @@ Terdapat search box yang dapat digunakan untuk mencari konfigurasi tertentu.</li
 Tools yang dapat mempermudah pengguna dalam melakukan text editing.</li>
 <li><strong>Shortcut</strong>
 <ol>
-<li>Ctrl + r - Membuka project yang pernah dibuat.</li>
-<li>Ctrl + p - Mencari nama file yang terdapat dalam project.</li>
-<li>Ctrl + , - Membuka settings.</li>
-<li>Ctrl + Shift + p - Membuka command palette.<br>
-<br>
-Shortcut lainnya dapat dibuka melalui Command Palette -&gt; Keyboard Shortcuts</li>
+<li>
+<p>Ctrl + r - Membuka project yang pernah dibuat.</p>
+</li>
+<li>
+<p>Ctrl + p - Mencari nama file yang terdapat dalam project.</p>
+</li>
+<li>
+<p>Ctrl + , - Membuka settings.</p>
+</li>
+<li>
+<p>Ctrl + Shift + p - Membuka command palette.</p>
+<p>Shortcut lainnya dapat dibuka melalui Command Palette -&gt; Keyboard Shortcuts</p>
+</li>
 </ol>
 </li>
+</ul>
+<h2 id="github">Github</h2>
+<p>Github merupakan tempat penyimpanan source code berbasis online yang memungkinkan programmer untuk berkolaborasi.</p>
+<ul>
+<li><strong>Repository &amp; Clone</strong><br>
+Repository merupakan tempat menyimpan sebuah project yang berisikan folder dan file source code. Clone berfungsi untuk menyalin project ke lokal PC.</li>
+<li><strong>Push &amp; Pull</strong>
+<ol>
+<li>Push -&gt; Memasukkan file-file atau folder yang telah diubah ke dalam repository github.</li>
+<li>Pull -&gt; Mengupdate repository lokal di PC dengan repository yang ada di github.</li>
+</ol>
+</li>
+<li><strong>Branch &amp; Merge</strong>
+<ol>
+<li>Branch -&gt; Percabangan pada repository untuk menghindari konflik dari kolaborasi ke cabang utama.</li>
+<li>Merge -&gt; Menggabungkan source code dari branch ke main repository.</li>
+</ol>
+</li>
+<li><strong>Fork</strong><br>
+Menyalin project yang sudah ada yang biasanya digunakan untuk mengembangkan project tersebut secara pribadi/kelompok lain (tidak digabungkan ke repository utama).</li>
+<li><strong>.gitignore</strong><br>
+Daftar pengecualian file-file atau folder yang tidak ingin diupload ke repository github. Biasanya file yang bersifat private atau folder modul yang kapasitasnya besar.</li>
 </ul>
 
