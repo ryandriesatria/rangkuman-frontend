@@ -7,15 +7,15 @@
 <p>Hyper Text Markup Language merupakan struktur dasar halaman web yang berisikan data yang akan ditampilkan.</p>
 <h2 id="syntax--structure">Syntax &amp; Structure</h2>
 <pre><code>&lt;!DOCTYPE html&gt;  
-	&lt;html&gt;  
-		&lt;head&gt;  
-			&lt;title&gt;Page Title&lt;/title&gt;  
-		&lt;/head&gt;  
-		&lt;body&gt;  
-  			&lt;h1&gt;This is a Heading&lt;/h1&gt;  
-			&lt;p&gt;This is a paragraph.&lt;/p&gt;  
-  		&lt;/body&gt;  
-	&lt;/html&gt;
+&lt;html&gt;  
+	&lt;head&gt;  
+		&lt;title&gt;Page Title&lt;/title&gt;  
+	&lt;/head&gt;  
+	&lt;body&gt;  
+  		&lt;h1&gt;This is a Heading&lt;/h1&gt;  
+		&lt;p&gt;This is a paragraph.&lt;/p&gt;  
+  	&lt;/body&gt;  
+&lt;/html&gt;
 </code></pre>
 <p>HTML umumnya berisikan elemen tag pembuka dan penutup. <code>&lt;!DOCTYPE html&gt;</code> menunjukkan halaman tersebut dideklarasikan sebagai halaman HTML.</p>
 <h2 id="basic-tags">Basic Tags</h2>
