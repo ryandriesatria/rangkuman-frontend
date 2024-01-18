@@ -54,7 +54,7 @@
 	&lt;tr&gt;  
 		&lt;th&gt;Company&lt;/th&gt;  
 		&lt;th&gt;Contact&lt;/th&gt;  
-	&lt;th&gt;Country&lt;/th&gt;  
+		&lt;th&gt;Country&lt;/th&gt;  
 	&lt;/tr&gt;  
 	&lt;tr&gt;  
 		&lt;td&gt;Alfreds Futterkiste&lt;/td&gt;  
