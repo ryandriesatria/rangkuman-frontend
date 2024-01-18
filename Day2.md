@@ -13,8 +13,8 @@
 		&lt;/head&gt;  
 		&lt;body&gt;  
   
-		&lt;h1&gt;This is a Heading&lt;/h1&gt;  
-		&lt;p&gt;This is a paragraph.&lt;/p&gt;  
+			&lt;h1&gt;This is a Heading&lt;/h1&gt;  
+			&lt;p&gt;This is a paragraph.&lt;/p&gt;  
   
 		&lt;/body&gt;  
 	&lt;/html&gt;
