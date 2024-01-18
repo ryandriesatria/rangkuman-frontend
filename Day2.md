@@ -79,7 +79,7 @@
 <li><code>&lt;label&gt;</code> - Digunakan untuk mendefinisikan input kepada pengguna</li>
 <li><code>&lt;textarea&gt;</code> - Input yang berisikan lebih dari satu kalimat/paragraf</li>
 </ul>
-<h1 id="semantic-html">Semantic HTML</h1>
+<h2 id="semantic-html">Semantic HTML</h2>
 <p>Mendeskripsikan elemen HTML sesuai isi dari kontennya.</p>
 
 <table>
