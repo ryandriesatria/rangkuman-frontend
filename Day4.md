@@ -9,8 +9,8 @@
 <p><strong>Advanced Selector:</strong></p>
 <ul>
 <li>CSS menyediakan pemilih lanjutan seperti pemilih atribut, pseudo-class, dan pseudo-element.</li>
-<li>Pemilih atribut menargetkan elemen berdasarkan atribut mereka, sementara pseudo-class menargetkan keadaan tertentu seperti hover atau fokus.</li>
-<li>Pseudo-element mengatur gaya bagian tertentu dari elemen, seperti baris pertama atau huruf pertama.</li>
+<li>Pemilih atribut menargetkan elemen berdasarkan atribut mereka, sementara pseudo-class menargetkan keadaan tertentu seperti hover atau fokus. Contohnya <code>::before</code> dan <code>::after</code></li>
+<li>Pseudo-element mengatur gaya bagian tertentu dari elemen, seperti baris pertama atau huruf pertama. Contohnya <code>:hover</code></li>
 </ul>
 </li>
 <li>
@@ -26,6 +26,7 @@
 <ul>
 <li>Flexbox adalah model tata letak yang menyederhanakan desain tata letak kompleks.</li>
 <li><code>display: flex;</code> diterapkan pada kontainer, dan elemen di dalamnya menjadi item yang fleksibel.</li>
+<li><code>flex-direction</code> digunakan untuk menentukan arah flex item yang ada dalam container.</li>
 <li>Flexbox menyediakan properti seperti <code>justify-content</code>, <code>align-items</code>, dan <code>flex</code> untuk mengontrol tata letak dan penyejajaran.</li>
 </ul>
 </li>
