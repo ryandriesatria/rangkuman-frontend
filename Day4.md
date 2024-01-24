@@ -48,6 +48,23 @@
 <li>Fitur media query umum termasuk penyesuaian ukuran font, struktur tata letak, dan menyembunyikan/menampilkan elemen untuk ukuran layar yang berbeda.</li>
 </ul>
 </li>
+</ol>
+<pre class=" language-css"><code class="prism  language-css"><span class="token comment">/* Extra small devices (phones, 600px and down) */</span>  
+<span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><span class="token number">...</span><span class="token punctuation">}</span>  
+  
+<span class="token comment">/* Small devices (portrait tablets and large phones, 600px and up) */</span>  
+<span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><span class="token number">...</span><span class="token punctuation">}</span>  
+  
+<span class="token comment">/* Medium devices (landscape tablets, 768px and up) */</span>  
+<span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 768px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><span class="token number">...</span><span class="token punctuation">}</span>  
+  
+<span class="token comment">/* Large devices (laptops/desktops, 992px and up) */</span>  
+<span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 992px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><span class="token number">...</span><span class="token punctuation">}</span>  
+  
+<span class="token comment">/* Extra large devices (large laptops and desktops, 1200px and up) */</span>  
+<span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 1200px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><span class="token number">...</span><span class="token punctuation">}</span>
+</code></pre>
+<ol start="5">
 <li>
 <p><strong>Shadow Properties:</strong></p>
 <ul>
@@ -81,7 +98,8 @@
 <ul>
 <li>CSS Grid Layout menyederhanakan pembuatan tata letak kompleks.</li>
 <li><code>display: grid;</code> diterapkan pada kontainer, dan elemen anak menjadi item grid.</li>
-<li>Properti grid seperti <code>grid-template-columns</code> dan <code>grid-template-rows</code> mendefinisikan struktur grid.</li>
+<li>Properti grid seperti <code>grid-template-columns</code> dan <code>grid-template-rows</code> mendefinisikan struktur grid.<br>
+<img src="https://www.w3schools.com/css/grid_lines.png" alt="CSS Grid Layout"></li>
 </ul>
 </li>
 </ol>
