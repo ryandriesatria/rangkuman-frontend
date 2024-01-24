@@ -8,7 +8,8 @@
 <ul>
 <li><strong>Instalasi VS Code</strong><br>
 Download melalui link <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a> (Disesuaikan dengan OS masing-masing)</li>
-<li><strong>Interface</strong>
+<li><strong>Interface</strong><br>
+<img src="https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png" alt="code basics hero">
 <ol>
 <li>Editor - Tempat mengubah isi dari file (kodingan).</li>
 <li>Side Bar - Berisi file-file yang terdapat dalam folder project.</li>
