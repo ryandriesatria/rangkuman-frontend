@@ -4,7 +4,7 @@
 ---
 
 <h1 id="css-basic">CSS Basic</h1>
-<p>Cascade Style Sheet (CSS) merupakan bahasa yang digunakan dalam pemrograman web untuk mengatur tampilan sehingga terlihat lebih menarik.</p>
+<p>Cascading Style Sheet (CSS) merupakan bahasa yang digunakan dalam pemrograman web untuk mengatur tampilan sehingga terlihat lebih menarik.</p>
 <h2 id="css-syntax--structure">CSS Syntax &amp; Structure</h2>
 <pre class=" language-css"><code class="prism  language-css"><span class="token selector">h1 </span><span class="token punctuation">{</span>
     <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
