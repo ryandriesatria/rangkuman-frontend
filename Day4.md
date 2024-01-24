@@ -29,7 +29,9 @@
 <li><code>flex-direction</code> digunakan untuk menentukan arah flex item yang ada dalam container.</li>
 </ul>
 <iframe class="interactive is-default-height" height="200" src="https://interactive-examples.mdn.mozilla.net/pages/css/flex-direction.html" title="MDN Web Docs Interactive Example"></iframe>
--   Flexbox menyediakan properti seperti `justify-content`, `align-items`, dan `flex` untuk mengontrol tata letak dan penyejajaran.
+<ul>
+<li>Flexbox menyediakan properti seperti <code>justify-content</code>, <code>align-items</code>, dan <code>flex</code> untuk mengontrol tata letak dan penyejajaran.</li>
+</ul>
 </li>
 <li>
 <p><strong>Media Query &amp; Responsive Design:</strong></p>
