@@ -15,8 +15,8 @@ let tidakDidefinisikan;
 2.  **Where to Write:**
     
     -   Eksternal: Menulis JavaScript dalam file terpisah.
-	   - Internal: Menulis JavaScript di dalam tag `<script>` di halaman HTML.
-	    -   Inline Event Handler: Menambahkan JavaScript langsung pada atribut event HTML.
+	- Internal: Menulis JavaScript di dalam tag `<script>` di halaman HTML.
+	-   Inline Event Handler: Menambahkan JavaScript langsung pada atribut event HTML.
 ```html
 <!-- Eksternal -->  
 <script src="script.js"></script>
