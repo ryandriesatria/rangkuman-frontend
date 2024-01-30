@@ -55,7 +55,7 @@ document.getElementById("myElement").classList.add("highlight");
 7.  **DOM Event:**
     
    -   Inline event: Menambahkan event langsung ke elemen HTML menggunakan atribut event seperti `onclick`.
-```js
+```html
 <button onclick="myFunction()">Click me</button>
 <script>
   function myFunction() {
