@@ -3,8 +3,8 @@
 
 1.  **HTML DOM Introduction:**
     
-    -   DOM (Document Object Model) adalah representasi struktur dokumen HTML yang memungkinkan JavaScript berinteraksi dengan HTML.
-    -   Dokumen dianggap sebagai pohon objek, di mana setiap elemen adalah simpul (node).
+   -   DOM (Document Object Model) adalah representasi struktur dokumen HTML yang memungkinkan JavaScript berinteraksi dengan HTML.
+   -   Dokumen dianggap sebagai pohon objek, di mana setiap elemen adalah simpul (node).
 2.  **Selecting Element:**
     
    -   `getElementById`: Mendapatkan elemen berdasarkan ID.
