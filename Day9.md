@@ -7,8 +7,8 @@ Javascript adalah bahasa pemrograman yang digunakan dalam pengembangan website a
     -   Tipe data primitif meliputi String, Number, Boolean, Null, dan Undefined.
 ```js
 let teks = "Ini adalah String";
-let angka = 123;
-let isValid = true;
+const angka = 123;
+var isValid = true;
 let kosong = null;
 let tidakDidefinisikan;
 ```
