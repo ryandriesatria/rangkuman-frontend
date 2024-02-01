@@ -6,9 +6,9 @@ Javascript adalah bahasa pemrograman yang digunakan dalam pengembangan website a
     -   Variabel digunakan untuk menyimpan data.
     -   Tipe data primitif meliputi String, Number, Boolean, Null, dan Undefined.
 ```js
-let teks = "Ini adalah String";
-const angka = 123;
-var isValid = true;
+var teks = "Ini adalah String";
+let angka = 123;
+const isValid = true;
 let kosong = null;
 let tidakDidefinisikan;
 ```
