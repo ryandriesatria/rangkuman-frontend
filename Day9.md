@@ -111,10 +111,10 @@ let nama = "Alice";
 let umur = 30;
 console.log(`Halo, nama saya ${nama} dan saya berumur ${umur} tahun.`);
 ```
-10.  **JS Scope & Hoisting Concept:**
+10.  **JS Scope:**
     
 	 - Scope: Menentukan di mana suatu variabel dapat diakses.
-	 - Hoisting: Membawa deklarasi variabel ke atas, sehingga dapat diakses sebelum dideklarasikan.
+
 
 ```js
 let x = 10; // Variabel global
@@ -126,7 +126,4 @@ function tambah() {
 
 console.log(tambah()); // Output: 15
 
-//hoisting
-console.log(z); // Output: undefined
-var z = 5;
 ```
