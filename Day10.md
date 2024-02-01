@@ -5,6 +5,8 @@
     
    -   DOM (Document Object Model) adalah representasi struktur dokumen HTML yang memungkinkan JavaScript berinteraksi dengan HTML.
    -   Dokumen dianggap sebagai pohon objek, di mana setiap elemen adalah simpul (node).
+![image](https://github.com/ryandriesatria/rangkuman-frontend/assets/37134829/741b4ca8-c70b-4a0a-b1fa-cf1dfacf67a9)
+
 2.  **Selecting Element:**
     
    -   `getElementById`: Mendapatkan elemen berdasarkan ID.
