@@ -84,3 +84,114 @@ Merender list elemen dengan memetakan setiap elemen dari array ke elemen JSX.
 	  return <main>Main content</main>;
 	}
 	```
+## **Event:**
+   **Handle Event Menggunakan Fungsi Anonim:**
+   - Mendefinisikan fungsi langsung di dalam atribut event pada elemen JSX.
+     ```jsx
+     <button onClick={() => alert('Tombol diklik!')}>Klik saya</button>
+     ```
+**Handle Event Menggunakan Referensi Fungsi:**
+   - Mendefinisikan fungsi terpisah dan merujuknya dari atribut event.
+     ```jsx
+     function handleClick() {
+       alert('Tombol diklik!');
+     }
+
+     <button onClick={handleClick}>Klik saya</button>
+     ```
+**Meneruskan Parameter Menggunakan Panggilan Fungsi di Dalam Fungsi Anonim:**
+- Meneruskan parameter ke dalam fungsi event.
+     ```jsx
+     function handleClick(name) {
+       alert(`Halo, ${name}!`);
+     }
+
+     <button onClick={() => handleClick('John')}>Klik saya</button>
+     ```
+
+## **State:**
+**useState Hooks:**
+   - Menggunakan Hooks `useState` untuk membuat dan mengelola state dalam komponen fungsional.
+     ```jsx
+     import React, { useState } from 'react';
+
+     function Counter() {
+       const [count, setCount] = useState(0);
+
+       return (
+         <div>
+           <p>Kamu menekan tombol sebanyak {count} kali</p>
+           <button onClick={() => setCount(count + 1)}>Tambah</button>
+         </div>
+       );
+     }
+     ```
+**Mengubah State pada Event Handler:**
+ - Menggunakan fungsi `setState` untuk mengubah nilai state.
+
+**Mendapatkan Nilai State Sebelumnya dari Fungsi Panggilan di Dalam `setState`:**
+- Menggunakan callback pada `setState` untuk mendapatkan nilai state sebelumnya.
+	```jsx
+	function Counter() {
+	  const [count, setCount] = useState(0);
+
+	  function increment() {
+	    setCount(prevCount => prevCount + 1);
+	  }
+
+	  return (
+	    <div>
+	      <p>Kamu menekan tombol sebanyak {count} kali</p>
+	      <button onClick={increment}>Tambah</button>
+	    </div>
+	  );
+	}
+	```
+
+**Objek pada Nilai State Awal:**
+ - Menginisialisasi state dengan objek.
+	```jsx
+	const [state, setState] = useState({ count: 0, name: 'John' });
+	```
+
+**Fungsi pada Nilai State Awal:**
+- Menginisialisasi state dengan fungsi.
+	```jsx
+	const [state, setState] = useState(() => {
+	  const initialState = someExpensiveComputation();
+	  return initialState;
+	});
+	```
+
+## **Lifecycle:**
+**Functional Component Lifecycle:**
+ - Komponen fungsional tidak memiliki siklus hidup, tetapi dapat menggunakan Hooks `useEffect` untuk menangani efek samping.
+
+**useEffect Hooks:**
+- Digunakan untuk menjalankan efek samping dalam komponen fungsional.
+	```jsx
+	import React, { useEffect } from 'react';
+
+	function MyComponent() {
+	  useEffect(() => {
+	    // Efek samping disini
+	    return () => {
+	      // Membersihkan efek samping disini
+	    };
+	  }, [dependency]);
+	}
+	```
+
+ **Multiple useEffect dalam Satu Komponen:**
+- Menggunakan Hooks `useEffect` beberapa kali dalam satu komponen.
+	```jsx
+	useEffect(() => {
+	  // Efek samping pertama
+	}, [dependency1]);
+
+	useEffect(() => {
+	  // Efek samping kedua
+	}, [dependency2]);
+	```
+
+
