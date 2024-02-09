@@ -194,4 +194,112 @@ Merender list elemen dengan memetakan setiap elemen dari array ke elemen JSX.
 	}, [dependency2]);
 	```
 
+## **Routing:**
+
+**Routing menggunakan React Router:**
+   - React Router adalah library yang digunakan untuk menangani routing dalam aplikasi web React.
+   - Memungkinkan pengembang untuk membuat aplikasi React dengan navigasi multi-halaman.
+
+**Konfigurasi Rute Dasar:**
+   - **Menggunakan JSX:**
+     ```jsx
+     import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+     <Router>
+       <Route path="/about" component={About} />
+       <Route path="/contact" component={Contact} />
+     </Router>
+     ```
+   - **Menggunakan Objek:**
+     ```jsx
+     const routes = [
+       { path: '/about', component: About },
+       { path: '/contact', component: Contact }
+     ];
+
+     <Router>
+       {routes.map(route => (
+         <Route key={route.path} path={route.path} component={route.component} />
+       ))}
+     </Router>
+     ```
+
+**Navigasi Antara Rute:**
+   - **Menggunakan Komponen Link:**
+     ```jsx
+     import { Link } from 'react-router-dom';
+
+     <Link to="/about">Tentang Kami</Link>
+     ```
+   - **Menggunakan Hooks useNavigate:**
+     ```jsx
+     import { useNavigate } from 'react-router-dom';
+
+     const navigate = useNavigate();
+     navigate('/about');
+     ```
+
+**Rute Dinamis:**
+   - **Konfigurasi Rute Dinamis Menggunakan Symbol ":"**
+     ```jsx
+     <Route path="/user/:id" component={UserDetail} />
+     ```
+   - **Membaca Parameter URL Menggunakan useParams:**
+     ```jsx
+     import { useParams } from 'react-router-dom';
+
+     const { id } = useParams();
+     ```
+
+**Rute Bersarang:**
+   - **Menggunakan Komponen Outlet untuk Merender Rute Bersarang:**
+     ```jsx
+	 const  App  =  ()  =>  {
+		return  (
+				<>
+				  <h1>React Router</h1>
+				  <nav>
+					  <Link  to="/home">Home</Link>
+					  <Link  to="/user">User</Link>
+				  </nav>
+				  <Routes>
+					  <Route  index  element={<Home  />}  />
+					  <Route  path="home"  element={<Home  />}  />
+					  <Route  path="user"  element={<User  />}>
+						  <Route  path="profile"  element={<Profile  />}  />
+						  <Route  path="account"  element={<Account  />}  />
+					  </Route>
+					  <Route  path="*"  element={<NoMatch  />}  />
+				  </Routes>
+				 </>
+		  );
+		};
+     ```
+
+**Mengirimkan Data ke Rute Lain Secara Programatik:**
+   - **Menggunakan URL Query / Search Params:**
+     ```jsx
+     const searchParams = new URLSearchParams();
+     searchParams.append('query', 'react');
+     navigate(`/search?${searchParams.toString()}`);
+     ```
+   - **Menggunakan URL State:**
+     ```jsx
+     navigate('/dashboard', { state: { from: 'home' } });
+     ```
+
+ **Redirect Menggunakan Komponen Navigate:**
+   - **Mengarahkan Pengguna ke Rute Lain:**
+     ```jsx
+     import { Navigate } from 'react-router-dom';
+
+     function PrivateRoute() {
+       const isAuthenticated = checkAuth();
+       if (!isAuthenticated) {
+         return <Navigate to="/login" />;
+       }
+       return <Route {...props} />;
+     }
+     ```
+
 
