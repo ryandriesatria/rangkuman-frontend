@@ -163,37 +163,6 @@ Merender list elemen dengan memetakan setiap elemen dari array ke elemen JSX.
 	});
 	```
 
-## **Lifecycle:**
-**Functional Component Lifecycle:**
- - Komponen fungsional tidak memiliki siklus hidup, tetapi dapat menggunakan Hooks `useEffect` untuk menangani efek samping.
-
-**useEffect Hooks:**
-- Digunakan untuk menjalankan efek samping dalam komponen fungsional.
-	```jsx
-	import React, { useEffect } from 'react';
-
-	function MyComponent() {
-	  useEffect(() => {
-	    // Efek samping disini
-	    return () => {
-	      // Membersihkan efek samping disini
-	    };
-	  }, [dependency]);
-	}
-	```
-
- **Multiple useEffect dalam Satu Komponen:**
-- Menggunakan Hooks `useEffect` beberapa kali dalam satu komponen.
-	```jsx
-	useEffect(() => {
-	  // Efek samping pertama
-	}, [dependency1]);
-
-	useEffect(() => {
-	  // Efek samping kedua
-	}, [dependency2]);
-	```
-
 ## **Routing:**
 
 **Routing menggunakan React Router:**
