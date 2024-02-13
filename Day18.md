@@ -116,32 +116,18 @@
    - **React SWR:**
      React SWR (Stale-While-Revalidate) adalah library pengambilan data yang memungkinkan pengguna untuk mengelola data dengan mudah dan efisien.
 	    ```jsx
-		const [loading, setLoading] = useState(true);
-
-		useEffect(() => {
-		  axios.get('https://jsonplaceholder.typicode.com/posts')
-		    .then(response => {
-		      setPosts(response.data);
-		      setLoading(false);
-		    })
-		    .catch(error => {
-		      console.error('Error:', error);
-		      setLoading(false);
-		    });
-		}, []);
-
-		return (
-		  <div>
-		    {loading ? <p>Loading...</p> : (
-		      <ul>
-		        {posts.map(post => (
-		          <li key={post.id}>{post.title}</li>
-		        ))}
-		      </ul>
-		    )}
-		  </div>
-		);
+		import useSWR from 'swr'
+		 
+		function Profile() {
+		  const { data, error, isLoading } = useSWR('/api/user', fetcher)
+		 
+		  if (error) return <div>failed to load</div>
+		  if (isLoading) return <div>loading...</div>
+		  return <div>hello {data.name}!</div>
+		}
 		```
+
+
    - **React Query:**
      React Query adalah library pengambilan data yang dirancang untuk penggunaan di React. Ini menyediakan banyak fitur seperti caching, pagination, dan refetching.
 	    ```jsx
