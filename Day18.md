@@ -17,6 +17,19 @@
 	}
 	```
 
+ **Multiple useEffect dalam Satu Komponen:**
+- Menggunakan Hooks `useEffect` beberapa kali dalam satu komponen.
+	```jsx
+	useEffect(() => {
+	  // Efek samping pertama
+	}, [dependency1]);
+
+	useEffect(() => {
+	  // Efek samping kedua
+	}, [dependency2]);
+	```
+
+
 ## Data Fetching
 **Rangkuman React.js Data Fetching:**
 
