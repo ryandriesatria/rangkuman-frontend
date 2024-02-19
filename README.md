@@ -9,3 +9,8 @@
 - Day 9     -> [Javascript Basic](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day9.md)
 - Day 10    -> [Javascript DOM](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day10.md)
 - Day 11    -> [Javascript Object & NPM](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day11.md)
+---
+- Day 13 - 16 -> [React JS](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day13.md)
+- Day 17      -> [JS Asynchronous & REST API](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day17.md)
+- Day 18      -> [React Fetch API](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day18.md)
+- Day 20      -> [React Form Handling](https://github.com/ryandriesatria/rangkuman-frontend/blob/master/Day20.md)
