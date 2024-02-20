@@ -126,11 +126,6 @@ JavaScript Rest API memungkinkan pengembang untuk mengintegrasikan aplikasi web 
        .catch(error => console.error('Error:', error));
      ```
 
- **Manual API Testing using Hoppscotch:**
-   - **Hoppscotch:** Alat pengujian API yang memungkinkan pengguna untuk membuat dan mengirim permintaan HTTP serta melihat tanggapan secara langsung dari browser.
-   - **Contoh Penggunaan Hoppscotch:**
-     - Memasukkan URL endpoint.
-     - Menentukan metode HTTP (GET, POST, PUT, DELETE).
-     - Melihat tanggapan dari server.
+
 
 
