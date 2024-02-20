@@ -248,9 +248,13 @@ Merender list elemen dengan memetakan setiap elemen dari array ke elemen JSX.
 **Mengirimkan Data ke Rute Lain Secara Programatik:**
    - **Menggunakan URL Query / Search Params:**
      ```jsx
-     const searchParams = new URLSearchParams();
-     searchParams.append('query', 'react');
-     navigate(`/search?${searchParams.toString()}`);
+     function handleSubmit(event) {
+        event.preventDefault();
+        navigate({
+            pathname: "",
+            search: createSearchParams({ name: searchInput }).toString(),
+        });
+    }
      ```
    - **Menggunakan URL State:**
      ```jsx
