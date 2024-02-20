@@ -75,7 +75,7 @@ JavaScript Asynchronous memungkinkan eksekusi kode berlanjut tanpa harus menungg
 
 ## REST API
 
-JavaScript Rest API memungkinkan pengembang untuk mengintegrasikan aplikasi web dengan berbagai layanan dan sumber daya eksternal. Dengan menggunakan konsep JSON, HTTP, dan alat-alat seperti Axios dan Hoppscotch, pengembang dapat membuat aplikasi web yang berinteraksi dengan berbagai API dengan mudah dan efisien.
+JavaScript Rest API memungkinkan pengembang untuk mengintegrasikan aplikasi web dengan berbagai layanan dan sumber daya eksternal. Dengan menggunakan konsep JSON, HTTP, dan alat-alat seperti Axios, pengembang dapat membuat aplikasi web yang berinteraksi dengan berbagai API dengan mudah dan efisien.
 
 **JSON Introduction & Syntax:**
    - **JSON (JavaScript Object Notation):** Format pertukaran data ringan yang digunakan untuk mentransfer data antara server dan browser.
