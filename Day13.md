@@ -249,12 +249,12 @@ Merender list elemen dengan memetakan setiap elemen dari array ke elemen JSX.
    - **Menggunakan URL Query / Search Params:**
      ```jsx
      function handleSubmit(event) {
-        event.preventDefault();
+     	event.preventDefault();
         navigate({
             pathname: "",
             search: createSearchParams({ name: searchInput }).toString(),
         });
-    }
+     }
      ```
    - **Menggunakan URL State:**
      ```jsx
