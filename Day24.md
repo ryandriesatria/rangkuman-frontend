@@ -4,6 +4,7 @@
 React state management adalah proses mengelola dan menyimpan data dalam aplikasi React agar dapat diakses dan diperbarui dengan mudah. Dalam React, state merujuk pada data dinamis yang dikelola oleh komponen. State biasanya digunakan untuk menyimpan informasi seperti input pengguna, status aplikasi, atau data yang diperoleh dari backend.
 
 1. **React Context:**
+![A Guide to React Context API and useContext hook | Tekolio](https://cdn-elhdf.nitrocdn.com/jWsugUuWDlpBonojdTHjDHQtiFLwkBCo/assets/images/optimized/rev-1f4522b/wp-content/uploads/2023/02/image-2.png)
 Context adalah cara untuk membagikan data ke dalam pohon komponen React tanpa perlu meneruskan prop secara eksplisit ke setiap tingkat komponen. Ini memungkinkan komponen-komponen dalam aplikasi untuk mengakses data secara global.
    - **Membuat Konteks dengan Fungsi createContext:**
 		`createContext()` adalah fungsi yang disediakan oleh React untuk membuat sebuah konteks baru.
@@ -24,6 +25,7 @@ Context adalah cara untuk membagikan data ke dalam pohon komponen React tanpa pe
      ```
 
 2. **Redux:**
+![Understanding the Concept of Redux | by Dilip Thakur | Dev Genius](https://miro.medium.com/v2/resize:fit:1400/1*JAWge61qDCWcoARlKgdNVQ.png)
 Redux adalah library untuk state management. Redux menyediakan struktur yang jelas untuk mengatur state aplikasi dan memungkinkan pengelolaan state yang kompleks dengan baik. Redux menggunakan konsep store, actions, dan reducers untuk mengelola state secara terpusat.
    - **Konfigurasi Dasar Store:**
 	Store pada Redux adalah objek yang menyimpan seluruh state aplikasi. Dibuat menggunakan fungsi `createStore()` yang disediakan oleh Redux. Ini menerima reducer sebagai argumen.
@@ -65,7 +67,7 @@ Redux adalah library untuk state management. Redux menyediakan struktur yang jel
      const increment = () => dispatch({ type: 'INCREMENT' });
      ```
 
-3. **Membuat Reducer dengan createSlice dari Redux Toolkit:**
+4. **Membuat Reducer dengan createSlice dari Redux Toolkit:**
 Redux Toolkit adalah package yang menyediakan beberapa utilitas yang dirancang untuk membuat pengembangan dengan Redux lebih sederhana dan efisien
    - Redux Toolkit menyediakan `createSlice` untuk membuat slice reducer dengan konfigurasi yang lebih sederhana.
 	   ```jsx
