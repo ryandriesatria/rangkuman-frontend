@@ -1,7 +1,10 @@
 
 **Rangkuman React State Management:**
+  
+React state management adalah proses mengelola dan menyimpan data dalam aplikasi React agar dapat diakses dan diperbarui dengan mudah. Dalam React, state merujuk pada data dinamis yang dikelola oleh komponen. State biasanya digunakan untuk menyimpan informasi seperti input pengguna, status aplikasi, atau data yang diperoleh dari backend.
 
 1. **React Context:**
+Context adalah cara untuk membagikan data ke dalam pohon komponen React tanpa perlu meneruskan prop secara eksplisit ke setiap tingkat komponen. Ini memungkinkan komponen-komponen dalam aplikasi untuk mengakses data secara global.
    - **Membuat Konteks dengan Fungsi createContext:**
 		`createContext()` adalah fungsi yang disediakan oleh React untuk membuat sebuah konteks baru.
      ```jsx
@@ -21,6 +24,7 @@
      ```
 
 2. **Redux:**
+Redux adalah library untuk state management. Redux menyediakan struktur yang jelas untuk mengatur state aplikasi dan memungkinkan pengelolaan state yang kompleks dengan baik. Redux menggunakan konsep store, actions, dan reducers untuk mengelola state secara terpusat.
    - **Konfigurasi Dasar Store:**
 	Store pada Redux adalah objek yang menyimpan seluruh state aplikasi. Dibuat menggunakan fungsi `createStore()` yang disediakan oleh Redux. Ini menerima reducer sebagai argumen.
      ```jsx
