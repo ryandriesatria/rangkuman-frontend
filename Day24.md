@@ -66,6 +66,7 @@ Redux adalah library untuk state management. Redux menyediakan struktur yang jel
      ```
 
 3. **Membuat Reducer dengan createSlice dari Redux Toolkit:**
+Redux Toolkit adalah package yang menyediakan beberapa utilitas yang dirancang untuk membuat pengembangan dengan Redux lebih sederhana dan efisien
    - Redux Toolkit menyediakan `createSlice` untuk membuat slice reducer dengan konfigurasi yang lebih sederhana.
 	   ```jsx
 	   import { createSlice } from '@reduxjs/toolkit';
